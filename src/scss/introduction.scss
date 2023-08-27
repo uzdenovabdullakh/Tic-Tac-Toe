@@ -1,0 +1,15 @@
+@import 'reset';
+
+.introduction-container{
+    background-image: url('../../public/image/Cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center center;
+    p{
+        text-align: center;
+        padding-top: 500px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

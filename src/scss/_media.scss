@@ -1,0 +1,82 @@
+@media only screen and (max-width: 2560px) and (min-width: 1921px) {
+    .board {
+        width: 10vw !important;
+        height: 15vh !important;
+    }
+    .boards {
+        grid-template-columns: repeat(3, 11vw) !important;
+    }
+    .header {
+        font-size: 5rem !important;
+    }
+    .modal-content {
+        margin-top: 635px !important;
+    }
+    .modal-text {
+        font-size: 8rem !important;
+    }
+    #restart {
+        font-size: 5rem !important;
+        border-radius: 56px !important;
+        padding: 23px 51px !important;
+    }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1920px){
+    .board {
+        width: 16vw !important;
+        height: 24vh !important;
+    }
+    .boards {
+        grid-template-columns: repeat(3, 16vw) !important;
+    }
+    .header {
+        font-size: 3rem !important;
+    }
+    .modal-content {
+        margin-top: 300px !important;
+    }
+    .modal-text {
+        font-size: 5rem !important;
+    }
+    #restart {
+        font-size: 3rem !important;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .modal-text {
+        font-size: 2.5rem !important;
+    }
+    #restart {
+        font-size: 1.5rem !important;
+    }
+    .header {
+        font-size: 1rem !important;
+    }
+    .board {
+        // max-width: 120px;
+        // max-height: 120px;
+        width: 24vw !important;
+        height: 19vh !important;
+    }
+    .boards{
+        grid-template-columns: repeat(3, 24vw) !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .modal-text {
+        font-size: 2.5rem !important;
+    }
+    #restart {
+        font-size: 1.5rem !important;
+    }
+    .header {
+        font-size: 1rem !important;
+    }
+    .board {
+        height: 13vh !important;
+    }
+}
+
+
+
+

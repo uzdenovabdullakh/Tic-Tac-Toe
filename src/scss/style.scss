@@ -1,0 +1,32 @@
+@import 'reset';
+@import 'media';
+
+$font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boards {
+    background-image: url('../../public/image/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 85vh;//90
+    background-position: center center;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin-top: 30px;
+}
+.board {
+    // background-image: url('/image/Board.svg');
+    width: 150px;
+    height: 150px;
+    
+}
